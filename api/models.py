@@ -9,7 +9,7 @@ class Text(models.Model):
 class GroqRes(models.Model):
     text = models.TextField()
 def SendMessage(text):
-    os.environ['GROQ_API_KEY'] = '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'
+    os.environ['GROQ_API_KEY'] = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX' #Enter your Api here
     client = Groq()
     tests = text
 
