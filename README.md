@@ -1,7 +1,7 @@
 ## Setup Commands
 bash
 ``
-pip install django djangorestframework django-cors-headers
+pip install django djangorestframework django-cors-headers pypdf
 ``
 ## Change the groq Api to your api 
 if you not set the api the app will not work.
